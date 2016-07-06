@@ -1,0 +1,36 @@
+﻿Build started 4/28/2016 3:25:59 PM.
+     1>Project "c:\Users\tester\documents\visual studio 2015\Projects\winsock-native-pcap\winsock-native-pcap\winsock-native-pcap.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D WINSOCKNATIVEPCAP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>c:\users\tester\documents\visual studio 2015\projects\winsock-native-pcap\winsock-native-pcap\Winsock-capture.h(172): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238): note: see declaration of 'gethostbyname'
+     1>c:\users\tester\documents\visual studio 2015\projects\winsock-native-pcap\winsock-native-pcap\Winsock-capture.h(184): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850): note: see declaration of 'inet_addr'
+     1>c:\users\tester\documents\visual studio 2015\projects\winsock-native-pcap\winsock-native-pcap\Winsock-capture.h(295): warning C4244: '=': conversion from 'time_t' to 'uint32_t', possible loss of data
+     1>c:\users\tester\documents\visual studio 2015\projects\winsock-native-pcap\winsock-native-pcap\Winsock-capture.h(369): warning C4101: 'iProtocol': unreferenced local variable
+     1>c:\users\tester\documents\visual studio 2015\projects\winsock-native-pcap\winsock-native-pcap\Winsock-capture.h(369): warning C4101: 'iHeaderLen': unreferenced local variable
+     1>c:\users\tester\documents\visual studio 2015\projects\winsock-native-pcap\winsock-native-pcap\Winsock-capture.h(401): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868): note: see declaration of 'inet_ntoa'
+     1>c:\users\tester\documents\visual studio 2015\projects\winsock-native-pcap\winsock-native-pcap\Winsock-capture.h(405): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868): note: see declaration of 'inet_ntoa'
+     1>c:\users\tester\documents\visual studio 2015\projects\winsock-native-pcap\winsock-native-pcap\Winsock-capture.h(385): warning C4101: 'iTTL': unreferenced local variable
+     1>c:\users\tester\documents\visual studio 2015\projects\winsock-native-pcap\winsock-native-pcap\Winsock-capture.h(511): warning C4244: 'return': conversion from 'time_t' to 'int', possible loss of data
+     1>c:\users\tester\documents\visual studio 2015\projects\winsock-native-pcap\winsock-native-pcap\Winsock-capture.h(509): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\time.h(495): note: see declaration of 'gmtime'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\tester\documents\visual studio 2015\Projects\winsock-native-pcap\Release\winsock-native-pcap.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\tester\documents\visual studio 2015\Projects\winsock-native-pcap\Release\winsock-native-pcap.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\tester\documents\visual studio 2015\Projects\winsock-native-pcap\Release\winsock-native-pcap.lib" /MACHINE:X86 /SAFESEH /DLL Release\dllmain.obj
+         Release\ReflectiveLoader.obj
+         Release\stdafx.obj
+            Creating library c:\users\tester\documents\visual studio 2015\Projects\winsock-native-pcap\Release\winsock-native-pcap.lib and object c:\users\tester\documents\visual studio 2015\Projects\winsock-native-pcap\Release\winsock-native-pcap.exp
+         Generating code
+         14 of 160 functions ( 8.8%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           1 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         winsock-native-pcap.vcxproj -> c:\users\tester\documents\visual studio 2015\Projects\winsock-native-pcap\Release\winsock-native-pcap.dll
+     1>Done Building Project "c:\Users\tester\documents\visual studio 2015\Projects\winsock-native-pcap\winsock-native-pcap\winsock-native-pcap.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.34
