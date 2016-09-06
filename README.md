@@ -10,6 +10,8 @@ Using the following OS and VS the build should be easy:
 * Visual Studio 2015 
 * WinPcap Dev Kit
 
+# How it works
+[alt tag](https://github.com/killswitch-GUI/Winsock-PCAP/blob/master/Setup/Process.png)
 
 # license  
 File: Winsock-PCAP Project
