@@ -10,8 +10,9 @@ Using the following OS and VS the build should be easy:
 * Visual Studio 2015 
 * WinPcap Dev Kit
 
-# Demo: 
-https://www.youtube.com/watch?v=KiZgn_jvMb0
+# Demo / Slides: 
+- http://www.slideshare.net/AlexanderRymdekoHarv/rat-repurposing-adversarial-tradecraft
+- https://www.youtube.com/watch?v=KiZgn_jvMb0
 
 # How it works
 ![alt tag](https://github.com/killswitch-GUI/Winsock-PCAP/blob/master/Setup/Process.png)
