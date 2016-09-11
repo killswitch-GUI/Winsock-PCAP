@@ -12,6 +12,7 @@ Using the following OS and VS the build should be easy:
 
 # How it works
 ![alt tag](https://github.com/killswitch-GUI/Winsock-PCAP/blob/master/Setup/Process.png)
+![alt tag](https://github.com/killswitch-GUI/Winsock-PCAP/blob/master/Setup/2016-09-10 22_05_08-RAT - Google Slides.png)
 
 # license  
 File: Winsock-PCAP Project
